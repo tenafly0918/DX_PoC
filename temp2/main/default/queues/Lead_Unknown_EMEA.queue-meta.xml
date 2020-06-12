@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Lead : Unknown(EMEA)</name>
+    <queueMembers>
+        <users>
+            <user>mmatsuddddmura@salesforce.com</user>
+            <user>mmatsuddddmura@salesforce.comdf</user>
+            <user>mmatsumura@mmatsumura-20200219.demo4</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

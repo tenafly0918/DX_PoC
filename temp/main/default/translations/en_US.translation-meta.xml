@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- Start Here --></label>
+        <name>Start_Here</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- サンプル --></label>
+        <name>ABC_Mart</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AccessLevel --></label>
+        <name>ltngsharing__AccessLevel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddNewPermission --></label>
+        <name>ltngsharing__AddNewPermission</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Back --></label>
+        <name>ltngsharing__Back</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Delete --></label>
+        <name>ltngsharing__Delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- For --></label>
+        <name>ltngsharing__For</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- LackingPermissions --></label>
+        <name>ltngsharing__LackingPermissions</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MultipleGroupsForRole --></label>
+        <name>ltngsharing__MultipleGroupsForRole</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Name --></label>
+        <name>ltngsharing__Name</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OWDReadWrite --></label>
+        <name>ltngsharing__OWDReadWrite</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- OwnerAdminModify --></label>
+        <name>ltngsharing__OwnerAdminModify</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PublicGroups --></label>
+        <name>ltngsharing__PublicGroups</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Read --></label>
+        <name>ltngsharing__Read</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReadWrite --></label>
+        <name>ltngsharing__ReadWrite</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reason --></label>
+        <name>ltngsharing__Reason</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Roles --></label>
+        <name>ltngsharing__Roles</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search in --></label>
+        <name>ltngsharing__Search</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SetAccessLevel --></label>
+        <name>ltngsharing__SetAccessLevel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TooManyResultsMessage --></label>
+        <name>ltngsharing__TooManyResultsMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Type --></label>
+        <name>ltngsharing__Type</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Type3 --></label>
+        <name>ltngsharing__Type3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- UserOrGroup --></label>
+        <name>ltngsharing__UserOrGroup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Users --></label>
+        <name>ltngsharing__Users</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ViewCurrentPermissions --></label>
+        <name>ltngsharing__ViewCurrentPermissions</name>
+    </customLabels>
+    <customPageWebLinks>
+        <label><!-- Authenticate --></label>
+        <name>Authenticate</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Change Logo --></label>
+        <name>Change_Logo</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Change Logo --></label>
+        <name>Change_Logo_Heroku</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Chatter Droids --></label>
+        <name>Chatter_Droids</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Forms Fast --></label>
+        <name>Forms_Fast</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Password Reset --></label>
+        <name>Password_Reset</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Perfect Date Wizard --></label>
+        <name>Perfect_Date_Wizard</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Perfect Date Wizard --></label>
+        <name>Perfect_Date_Wizard_Heroku</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Picklist2Icon --></label>
+        <name>Picklist2Icon</name>
+    </customPageWebLinks>
+    <customPageWebLinks>
+        <label><!-- Set Community Users --></label>
+        <name>Set_Community_Users</name>
+    </customPageWebLinks>
+    <customTabs>
+        <label><!-- Perfect Date Wizard --></label>
+        <name>Perfect_Date_Wizard</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Start Here --></label>
+        <name>Start_Here</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows>
+            <fullName>Mention7Days_Passed_Case-1</fullName>
+        </flows>
+        <fullName>Mention7Days_Passed_Case</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Questions_to_Ask-8</fullName>
+            <screens>
+                <fields>
+                    <name>Client_Phone_Number</name>
+                </fields>
+                <name>Customer_Info</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Account</name>
+                </fields>
+                <fields>
+                    <name>Contact</name>
+                </fields>
+                <fields>
+                    <name>Language_he_she_speaks</name>
+                </fields>
+                <fields>
+                    <name>Questions</name>
+                </fields>
+                <fields>
+                    <name>Questions_fr</name>
+                </fields>
+                <fields>
+                    <name>Questions_sp</name>
+                </fields>
+                <name>X10_questions_to_ask</name>
+            </screens>
+        </flows>
+        <fullName>Questions_to_Ask</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>AreaUnknown-1</fullName>
+        </flows>
+        <fullName>AreaUnknown</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>update_Child_Record-34</fullName>
+        </flows>
+        <fullName>update_Child_Record</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Address2-12</fullName>
+        </flows>
+        <fullName>Address2</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>chatter-1</fullName>
+        </flows>
+        <fullName>chatter</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <fullName>Assign_Support_Agents-1</fullName>
+        </flows>
+        <fullName>Assign_Support_Agents</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- Guest Community Case --></label>
+        <name>GuestCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Community Case --></label>
+        <name>NewCommunityCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <reportTypes>
+        <description><!-- AccountWithOpenOpportunity --></description>
+        <label><!-- AccountWithOpenOpportunity --></label>
+        <name>AccountWithOpenOpportunity</name>
+        <sections>
+            <label><!-- 取引先 --></label>
+            <name>取引先</name>
+        </sections>
+        <sections>
+            <label><!-- 商談 --></label>
+            <name>商談</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Accounts with Entitlements with Contacts --></description>
+        <label><!-- Accounts with Entitlements with Contacts --></label>
+        <name>Accounts_with_Entitlements_with_Contacts</name>
+        <sections>
+            <label><!-- Accounts --></label>
+            <name>Accounts</name>
+        </sections>
+        <sections>
+            <label><!-- Contacts --></label>
+            <name>Contacts</name>
+        </sections>
+        <sections>
+            <label><!-- Entitlements --></label>
+            <name>Entitlements</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Articles Views --></description>
+        <label><!-- Articles Views --></label>
+        <name>Articles_Views</name>
+        <sections>
+            <label><!-- Article View Statistics --></label>
+            <name>Article View Statistics</name>
+        </sections>
+        <sections>
+            <label><!-- Knowledge Articles --></label>
+            <name>Knowledge Articles</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Articles Votes --></description>
+        <label><!-- Articles Votes --></label>
+        <name>Articles_Votes</name>
+        <sections>
+            <label><!-- Article Votes --></label>
+            <name>Article Votes</name>
+        </sections>
+        <sections>
+            <label><!-- Knowledge Articles --></label>
+            <name>Knowledge Articles</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Dealerが関連するRelated Dealers Infoと関連する取引先 --></description>
+        <label><!-- Dealerが関連するRelated Dealers Infoと関連する取引先 --></label>
+        <name>Dealer_Related_Dealers_Info</name>
+        <sections>
+            <label><!-- 取引先 --></label>
+            <name>取引先</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Service Contracts with Contract Line Items --></description>
+        <label><!-- Service Contracts with Contract Line Items --></label>
+        <name>Service_Contracts_with_Contract_Line_Items</name>
+        <sections>
+            <label><!-- Contract Line Items --></label>
+            <name>Contract Line Items</name>
+        </sections>
+        <sections>
+            <label><!-- Service Contracts --></label>
+            <name>Service Contracts</name>
+        </sections>
+    </reportTypes>
+    <reportTypes>
+        <description><!-- Service Contracts with Entitlements --></description>
+        <label><!-- Service Contracts with Entitlements --></label>
+        <name>Service_Contracts_with_Entitlements</name>
+        <sections>
+            <label><!-- Entitlements --></label>
+            <name>Entitlements</name>
+        </sections>
+        <sections>
+            <label><!-- Service Contracts --></label>
+            <name>Service Contracts</name>
+        </sections>
+    </reportTypes>
+</Translations>

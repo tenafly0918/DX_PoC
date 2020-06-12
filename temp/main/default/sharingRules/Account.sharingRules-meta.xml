@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Share_withAdvisory_CLL</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Share with Advisory(CLL)</label>
+        <sharedTo>
+            <group>Advisory_EAST_CLL</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>AREA__c</field>
+            <operation>equals</operation>
+            <value>AMER（East）</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Industry</field>
+            <operation>equals</operation>
+            <value>,Electronics,Engineering,Machinery,Media,Biotechnology,Education,Environmental,Hospitality,Agriculture,Communications,Energy,Food &amp; Beverage,Manufacturing,Apparel,Consulting,Entertainment,Chemicals,Construction,Healthcare</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_Advisory_CLL</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Share with Advisory(CLL)</label>
+        <sharedTo>
+            <group>Advisory_EAST_BPC</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>AREA__c</field>
+            <operation>equals</operation>
+            <value>AMER（East）</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>IsPersonAccount</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_Advisory_IB</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Share with Advisory(IB)</label>
+        <sharedTo>
+            <group>Advisory_EAST_IB</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>AREA__c</field>
+            <operation>equals</operation>
+            <value>AMER（East）</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Industry</field>
+            <operation>equals</operation>
+            <value>Finance,Government,Consulting,Banking,Insurance</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

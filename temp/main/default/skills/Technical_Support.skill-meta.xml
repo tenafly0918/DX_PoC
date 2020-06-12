@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skill xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignments>
+        <profiles>
+            <profile>Admin</profile>
+            <profile>Service</profile>
+        </profiles>
+        <users>
+            <user>mmatsumura@mmatsumura-20200219.demo</user>
+            <user>tim.eyq67hwdf6du.jngkmrxh9ues.9vxsspcjyhfr@mmatsumura-20200219.demo</user>
+        </users>
+    </assignments>
+    <label>Technical Support</label>
+</Skill>

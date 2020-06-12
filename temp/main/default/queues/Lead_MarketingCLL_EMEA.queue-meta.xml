@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Lead : Marketing_CLL(EMEA)</name>
+    <queueMembers>
+        <roles>
+            <role>Marketing_Manager_EMEA</role>
+        </roles>
+        <users>
+            <user>mmatsuddddmura@salesforce.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

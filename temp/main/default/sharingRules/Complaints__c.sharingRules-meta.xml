@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Ad</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>SupportShare</label>
+        <sharedTo>
+            <role>Marketing_Manager_EMEA</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Marketing_Manager_EMEA</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_EMEA_BPC_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Service :(EMEA)*BPC</label>
+    <queue>Service_EMEA_BPC</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

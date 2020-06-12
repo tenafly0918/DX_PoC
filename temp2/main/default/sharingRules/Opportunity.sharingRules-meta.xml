@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Evaluate_Team</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Evaluate Team</label>
+        <sharedTo>
+            <group>Evaluate_Team</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>StageName</field>
+            <operation>equals</operation>
+            <value>Proposal/Price Quote</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>ShareWithSME</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>ShareWithSME</label>
+        <sharedTo>
+            <role>Service_Manager_EMEA_BPC</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>StageName</field>
+            <operation>equals</operation>
+            <value>Needs Analysis,Proposal/Price Quote,Negotiation/Review</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>active_to_advisor</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>active_to_advisor</label>
+        <sharedTo>
+            <group>advisory</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Active__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

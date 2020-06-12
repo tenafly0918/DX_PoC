@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>tier3@example.com</email>
+    <name>Tier 3 Queue</name>
+    <queueMembers>
+        <users>
+            <user>cindy.foqthdcitv9k.u4yhkn6gvgfr.marc2hkjk6kj@mmatsumura-20200219.demo</user>
+            <user>ely.n5hhq0lbfay4.mvuggnef0ikw.fgy7sxmadago@mmatsumura-20200219.demo</user>
+            <user>quinton.ogzpogqekczi.zrb1zcycdbfs.66al9h6ruwbd@mmatsumura-20200219.demo</user>
+            <user>elliot.6eioscyn4zd1.5am5cqyowjhk.mmex1z0w5kqa@mmatsumura-20200219.demo</user>
+            <user>sue.9afdirlighit.jvlw0ob3pddg.ojyxszptsio7@mmatsumura-20200219.demo</user>
+            <user>mmatsumura@mmatsumura-20200219.demo</user>
+            <user>tim.eyq67hwdf6du.jngkmrxh9ues.9vxsspcjyhfr@mmatsumura-20200219.demo</user>
+            <user>customer.qulfmaf3gjwb.a6lswjhlwfsi.upxqfqdluho0@mmatsumura-20200219.demo</user>
+            <user>partner.rlhrsdw5odis.hfwzhdmxsiag.vvqxyp0qfxha@mmatsumura-20200219.demo</user>
+            <user>bill.hzx4h3ctu4la.lvavdejjd968.oudsjkb855xu@mmatsumura-20200219.demo</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

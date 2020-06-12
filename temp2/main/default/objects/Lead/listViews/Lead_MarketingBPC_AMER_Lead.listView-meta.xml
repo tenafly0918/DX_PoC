@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_MarketingBPC_AMER_Lead</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Lead : MarketingBPC(AMER)</label>
+    <queue>Lead_MarketingBPC_AMER</queue>
+    <sharedTo>
+        <allInternalUsers/>
+    </sharedTo>
+</ListView>

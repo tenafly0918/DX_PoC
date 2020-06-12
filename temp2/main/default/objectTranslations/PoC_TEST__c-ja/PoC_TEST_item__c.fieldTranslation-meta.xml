@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- PoC_TEST_item --></label>
+    <name>PoC_TEST_item__c</name>
+</CustomFieldTranslation>
