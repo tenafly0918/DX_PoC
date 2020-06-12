@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Address_Sync__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If checked, all the related account&apos;s shipping address can be updated by this record&apos;s billing address.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, all the related account&apos;s shipping address can be updated by this record&apos;s billing address.</inlineHelpText>
+    <label>Address Sync</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>OpportunityApproved</fullName>
+        <description>OpportunityApproved</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>mmatsdumura@salesforce.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/CommunityChangePasswordEmailTemplate</template>
+    </alerts>
+    <alerts>
+        <fullName>Rejected</fullName>
+        <description>Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/CommunityChangePasswordEmailTemplate</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>ApprovalStatusToApproved</fullName>
+        <field>Status_for_Approval__c</field>
+        <literalValue>Approved</literalValue>
+        <name>ApprovalStatusToApproved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ApprovalStatusToDeclined</fullName>
+        <field>Status_for_Approval__c</field>
+        <literalValue>Declined</literalValue>
+        <name>ApprovalStatusToDeclined</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ApprovalStatusToPending</fullName>
+        <field>Status_for_Approval__c</field>
+        <literalValue>Waiting</literalValue>
+        <name>ApprovalStatusToPending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Freeze_The_Deal</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>Freeze</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>Freeze The Deal</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Freeze_Value</fullName>
+        <field>StageName</field>
+        <literalValue>Freeze</literalValue>
+        <name>Freeze Value</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Owner_Opportunity_BPC_AMER</fullName>
+        <field>OwnerId</field>
+        <lookupValue>mmatsumuffra@salesforce.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Owner Opportunity BPC(AMER)</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Owner_Opportunity_BPC_EMEA</fullName>
+        <field>OwnerId</field>
+        <lookupValue>mmatsumura@mmatsumura-202dk00217.demo</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Owner Opportunity BPC(EMEA)</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Owner_Opportunity_CLL_AMER</fullName>
+        <field>OwnerId</field>
+        <lookupValue>mmatsqqumura@salesforce.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Owner Opportunity CLL(AMER)</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Owner_Opportunity_CLL_EMEA</fullName>
+        <field>OwnerId</field>
+        <lookupValue>mmatsumura@mmatsumura-202a002f17.demo</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Owner Opportunity CLL(EMEA)</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Owner_Opportunity_IB_AMER</fullName>
+        <field>OwnerId</field>
+        <lookupValue>mmatsumuqra@salesforce.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Owner Opportunity IB(AMER)</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Owner_Opportunity_IB_EMEA</fullName>
+        <field>OwnerId</field>
+        <lookupValue>mmatsumura@mmatsumura-20s22003217.demo</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Owner Opportunity IB(EMEA)</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>RecordType_Opportunity_BPC</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>Business_for_BPC</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>RecordType Opportunity BPC</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>RecordType_Opportunity_CLL</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>Business_for_CLL</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>RecordType Opportunity CLL</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>RecordType_Opportunity_IB</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>Business_for_IB</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>RecordType Opportunity IB</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Freeze</fullName>
+        <actions>
+            <name>Freeze_The_Deal</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Freeze_Value</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Red_Account_Flag__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Owner Opportunity BPC%28AMER%29</fullName>
+        <actions>
+            <name>Owner_Opportunity_BPC_AMER</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>RecordType_Opportunity_BPC</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Original_from_Lead_Area__c</field>
+            <operation>equals</operation>
+            <value>AMER</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Origin_from_Lead_Product_of_Interest__c</field>
+            <operation>equals</operation>
+            <value>Private Equity Advisory,Private Portfolio Advisory</value>
+        </criteriaItems>
+        <description>Owner Opportunity BPC(AMER)</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Owner Opportunity BPC%28EMEA%29</fullName>
+        <actions>
+            <name>Owner_Opportunity_BPC_EMEA</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>RecordType_Opportunity_BPC</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Original_from_Lead_Area__c</field>
+            <operation>equals</operation>
+            <value>EMEA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Origin_from_Lead_Product_of_Interest__c</field>
+            <operation>equals</operation>
+            <value>Private Equity Advisory,Private Portfolio Advisory</value>
+        </criteriaItems>
+        <description>Owner Opportunity BPC(EMEA)</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Owner Opportunity CLL%28AMER%29</fullName>
+        <actions>
+            <name>Owner_Opportunity_CLL_AMER</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>RecordType_Opportunity_CLL</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Original_from_Lead_Area__c</field>
+            <operation>equals</operation>
+            <value>AMER</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Origin_from_Lead_Product_of_Interest__c</field>
+            <operation>equals</operation>
+            <value>Lending/Leasing Service</value>
+        </criteriaItems>
+        <description>Owner Opportunity CLL(AMER)</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Owner Opportunity CLL%28EMEA%29</fullName>
+        <actions>
+            <name>Owner_Opportunity_CLL_EMEA</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>RecordType_Opportunity_CLL</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Original_from_Lead_Area__c</field>
+            <operation>equals</operation>
+            <value>EMEA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Origin_from_Lead_Product_of_Interest__c</field>
+            <operation>equals</operation>
+            <value>Lending/Leasing Service</value>
+        </criteriaItems>
+        <description>Owner Opportunity CLL(EMEA)</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Owner Opportunity IB%28AMER%29</fullName>
+        <actions>
+            <name>Owner_Opportunity_IB_AMER</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>RecordType_Opportunity_IB</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Original_from_Lead_Area__c</field>
+            <operation>equals</operation>
+            <value>AMER</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Origin_from_Lead_Product_of_Interest__c</field>
+            <operation>equals</operation>
+            <value>Investment Advisory</value>
+        </criteriaItems>
+        <description>Owner Opportunity IB(AMER)</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Owner Opportunity IB%28EMEA%29</fullName>
+        <actions>
+            <name>Owner_Opportunity_IB_EMEA</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>RecordType_Opportunity_IB</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Original_from_Lead_Area__c</field>
+            <operation>equals</operation>
+            <value>EMEA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Origin_from_Lead_Product_of_Interest__c</field>
+            <operation>equals</operation>
+            <value>Investment Advisory</value>
+        </criteriaItems>
+        <description>Owner Opportunity IB(EMEA)</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>RecordType Opportunity IB</fullName>
+        <actions>
+            <name>RecordType_Opportunity_IB</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.Origin_from_Lead_Product_of_Interest__c</field>
+            <operation>equals</operation>
+            <value>Investment Advisory</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>RecordType_Opportunity BPC</fullName>
+        <actions>
+            <name>RecordType_Opportunity_BPC</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.Origin_from_Lead_Product_of_Interest__c</field>
+            <operation>equals</operation>
+            <value>Private Equity Advisory,Private Portfolio Advisory</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>RecordType_Opportunity CLL</fullName>
+        <actions>
+            <name>RecordType_Opportunity_CLL</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.Origin_from_Lead_Product_of_Interest__c</field>
+            <operation>equals</operation>
+            <value>Lending/Leasing Service</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

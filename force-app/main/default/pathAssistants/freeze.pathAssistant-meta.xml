@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>freeze</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b&gt;取引先が&lt;u&gt;Red Accountに指定&lt;/u&gt;されたため、関連する&lt;u&gt;商談をフリーズ&lt;/u&gt;しました。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;詳しくはSales Managerに問い合わせください。​&lt;/b&gt;&lt;/p&gt;</info>
+        <picklistValueName>Freeze</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Freeze</recordTypeName>
+</PathAssistant>

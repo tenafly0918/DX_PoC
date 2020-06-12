@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>Lead %3A Marketing</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <senderEmail>mmatsumura@salesforce.com</senderEmail>
+            <senderName>Masato Matsumura</senderName>
+            <template>Marketing/Marketing</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

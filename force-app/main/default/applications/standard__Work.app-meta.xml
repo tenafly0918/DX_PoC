@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-Recognition</defaultLandingTab>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <tabs>standard-UserProfile</tabs>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-OtherUserProfile</tabs>
+    <tabs>standard-Recognition</tabs>
+    <tabs>standard-WorkFeedbackRequest</tabs>
+    <tabs>standard-Coaching</tabs>
+    <tabs>standard-WorkPerformanceCycle</tabs>
+    <tabs>standard-Calibration</tabs>
+    <tabs>standard-WorkBadgeDefinition</tabs>
+    <tabs>Account_s_Assistants__c</tabs>
+    <tabs>Competitor__c</tabs>
+    <tabs>Dealer__c</tabs>
+    <tabs>Partner__c</tabs>
+    <tabs>Related_Competitors_Info__c</tabs>
+    <tabs>Related_Dealers_Info__c</tabs>
+    <tabs>Related_Partners_Info__c</tabs>
+    <tabs>Partner_Share__c</tabs>
+    <tabs>Complaints__c</tabs>
+    <tabs>Bank_Account__c</tabs>
+</CustomApplication>
