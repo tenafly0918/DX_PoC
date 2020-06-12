@@ -4134,6 +4134,9 @@
         <recordType>PersonAccount.PersonAccount</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>PoC_TEST2__c-PoC_TEST2レイアウト</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>PoC_TEST__c-PoC_TESTレイアウト</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4936,6 +4939,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>PartyConsent</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>PoC_TEST2__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>

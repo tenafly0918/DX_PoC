@@ -4134,6 +4134,9 @@
         <recordType>PersonAccount.PersonAccount</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>PoC_TEST2__c-PoC_TEST2レイアウト</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>PoC_TEST__c-PoC_TESTレイアウト</layout>
     </layoutAssignments>
     <layoutAssignments>
